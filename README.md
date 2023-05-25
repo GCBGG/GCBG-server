@@ -1,4 +1,4 @@
-# GCGC-server
+# GCBG-server
 
 ### 실핼방법
 
