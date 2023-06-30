@@ -1,6 +1,6 @@
 # GCBG-server
 
-### 실핼방법
+### 실행방법
 
 ```
 https://github.com/GCBGG/GCBG-server.git
