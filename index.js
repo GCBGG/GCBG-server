@@ -1,13 +1,16 @@
 const express = require('express');
 const app = express();
 const loginRouter = require('./routes/login');
+const signupRouter = require('./routes/signup');
 const cors = require('cors');
+const { sign } = require('jsonwebtoken');
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 
-app.use('/api/login', loginRouter);
+// app.use('/api/login', loginRouter);
+app.use('/api/signup', signupRouter);
 
 const port = 8000;
 
